@@ -6,9 +6,13 @@ This image shows a historical cipher table attributed to Blaise Pascal. Its name
 What does the table contain?
 
 • A large table with double letters (probably a Vigenère or Playfair cipher).
+
 • The French text below the table explains the principle of encryption:
+
 • You use a secret word (in the example, “Paris”).
+
 • The encryption works by shifting each letter according to the secret word.
+
 • The result is unintelligible words that can only be deciphered with the key.
 
 Translation of the French text below the table:
