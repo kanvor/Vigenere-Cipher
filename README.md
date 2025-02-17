@@ -4,6 +4,7 @@ This image shows a historical cipher table attributed to Blaise Pascal. Its name
 ![CipherTable](dictionnairedech00poug_0081.png)
 
 What does the table contain?
+
 • A large table with double letters (probably a Vigenère or Playfair cipher).
 • The French text below the table explains the principle of encryption:
 • You use a secret word (in the example, “Paris”).
@@ -17,6 +18,7 @@ The use of this cipher is based on an agreed-upon word that can be changed lette
 Example:
 
 Let’s assume the agreed-upon word is Paris.
+
 • Je veux écrire… (I want to write…) → Vous serez demain au rendez-vous. (We will meet tomorrow.)
 • Je mets… (I give…) → Pari s pari sparis pa rispar ispa.
 • Voici ce que j’écris… (This is what I write…) → Umyq alini ploraf pé aefmxt oeuh.
@@ -27,6 +29,7 @@ And finally he says:
 If UP is said, it means U. If MA is said, it means O.
 
 What does it mean?
+
 • It is probably a historical form of the Vigenère cipher.
 • The secret word Paris is used to shift the letters in the message.
 • The result is a seemingly random text that is only readable with the key.
