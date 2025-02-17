@@ -78,5 +78,6 @@ Is it secure today?
 • Much more secure ciphers than AES are used today.
 • Nevertheless, the Vigenère cipher is great for understanding the principles of cryptography.
 
-Want to try it?
+Want to try it? :)
 
+./cipher.html
