@@ -3,6 +3,72 @@ This image shows a historical cipher table attributed to Blaise Pascal. Its name
 
 ![CipherTable](dictionnairedech00poug_0081.png)
 
+# 🔐 Vigenère Cipher Encoder & Decoder
+
+Tento projekt je jednoduchá webová aplikácia na šifrovanie a dešifrovanie textu pomocou **Vigenèrovej šifry**. Funguje **offline**, všetko sa spracúva priamo v prehliadači.
+
+## 🛠️ Funkcie
+- 🔒 **Šifrovanie**: Zadajte text a kľúč, vygeneruje sa zašifrovaný text.
+- 🔓 **Dešifrovanie**: Zadajte zašifrovaný text a rovnaký kľúč, dostanete pôvodný text.
+- ⚡ **Rýchle a bezpečné**: Nevyžaduje internetové pripojenie, všetko sa vykonáva lokálne v prehliadači.
+- 🎨 **Jednoduchý a pekný dizajn**.
+
+## 🚀 Ako používať
+
+1. **Otvorte súbor** `cipher.html` v ľubovoľnom prehliadači.
+2. **Zadajte text**, ktorý chcete zašifrovať alebo dešifrovať.
+3. **Vyberte kľúč** – rovnaký kľúč musí byť použitý na šifrovanie aj dešifrovanie.
+4. Kliknite na **"Šifrovať"** alebo **"Dešifrovať"**.
+5. Skopírujte výsledok a použite ho podľa potreby.
+
+## 📜 Čo je Vigenèrova šifra?
+Vigenèrova šifra je polyalfabetická substitučná šifra, ktorá používa kľúčové slovo na iteratívne posuny písmen v texte. Je bezpečnejšia ako jednoduchá Caesarova šifra, pretože rovnaké písmeno môže byť zakódované rôznymi spôsobmi.
+
+## 📂 Súbory v repozitári
+
+- `cipher.html` – hlavná stránka s užívateľským rozhraním a šifrovacím skriptom.
+- `README.md` – tento popis projektu.
+
+## 📜 Licencia
+Tento projekt je open-source a je licencovaný pod **MIT licenciou**. Môžete ho slobodne používať, upravovať a zdieľať. 😊
+
+---
+
+
+# 🔐 Vigenère Cipher Encoder & Decoder
+
+This project is a simple web application for encrypting and decrypting text using the **Vigenère Cipher**. It works **offline**, everything is processed directly in the browser.
+
+## 🛠️ Features
+- 🔒 **Encryption**: Enter text and key, ciphertext is generated.
+- 🔓 **Decryption**: Enter ciphertext and the same key, you get the original text.
+- ⚡ **Fast and secure**: No internet connection required, everything is done locally in the browser.
+- 🎨 **Simple and nice design**.
+
+## 🚀 How to use
+
+1. **Open the file** `cipher.html` in any browser.
+2. **Enter the text** you want to encrypt or decrypt.
+3. **Select a key** – the same key must be used for encryption and decryption.
+4. Click **"Encrypt"** or **"Decrypt"**.
+5. Copy the result and use it as needed.
+
+## 📜 What is the Vigenère cipher?
+The Vigenère cipher is a polyalphabetic substitution cipher that uses a keyword to iteratively shift letters in a text. It is more secure than a simple Caesar cipher because the same letter can be encoded in different ways.
+
+## 📂 Files in the repository
+
+- `cipher.html` – the main page with the user interface and encryption script.
+- `README.md` – this project description.
+
+## 📜 License
+This project is open-source and licensed under the **MIT License**. You are free to use, modify, and share it. 😊
+
+---
+✨ **If you like this project, give it a ⭐ on GitHub!** ✨
+
+---
+
 What does the table contain?
 
 • A large table with double letters (probably a Vigenère or Playfair cipher).
