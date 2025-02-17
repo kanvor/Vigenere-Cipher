@@ -1,1 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vigenère Cipher</title>
+    <script>
+        function vigenereCipher(text, key, encrypt = true) {
+            let result = "";
+            key = key.toUpperCase();
+            let keyIndex = 0;
+            for (let i = 0; i < text.length; i++) {
+                let char = text[i];
+                if (char.match(/[A-Z]/i)) {
+                    let shift = key.charCodeAt(keyIndex % key.length) - 65;
+                    if (!encrypt) shift = -shift;
+                    let newChar = String.fromCharCode(((char.toUpperCase().charCodeAt(0) - 65 + shift + 26) % 26) + 65);
+                    result += (char === char.toLowerCase()) ? newChar.toLowerCase() : newChar;
+                    keyIndex++;
+                } else {
+                    result += char;
+                }
+            }
+            return result;
+        }
+        
+        function encrypt() {
+            let text = document.getElementById("inputText").value;
+            let key = document.getElementById("key").value;
+            document.getElementById("outputText").value = vigenereCipher(text, key, true);
+        }
+        
+        function decrypt() {
+            let text = document.getElementById("inputText").value;
+            let key = document.getElementById("key").value;
+            document.getElementById("outputText").value = vigenereCipher(text, key, false);
+        }
+    </script>
+</head>
+<body>
+    <h2>Vigenère Cipher Encryptor/Decryptor</h2>
+    <label for="inputText">Text:</label>
+    <input type="text" id="inputText" size="50"><br>
+    <label for="key">Key:</label>
+    <input type="text" id="key" size="20"><br>
+    <button onclick="encrypt()">Encrypt</button>
+    <button onclick="decrypt()">Decrypt</button><br>
+    <label for="outputText">Result:</label>
+    <input type="text" id="outputText" size="50" readonly>
+</body>
+</html>
 
